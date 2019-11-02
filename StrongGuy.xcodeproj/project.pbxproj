@@ -14,6 +14,7 @@
 		76D0244F236D986A000491BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D0244E236D986A000491BC /* Assets.xcassets */; };
 		76D02452236D986A000491BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D02450236D986A000491BC /* LaunchScreen.storyboard */; };
 		76D0245D236D986A000491BC /* StrongGuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0245C236D986A000491BC /* StrongGuyTests.swift */; };
+		76D02468236D9C15000491BC /* HammerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D02467236D9C15000491BC /* HammerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		76D02458236D986A000491BC /* StrongGuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrongGuyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D0245C236D986A000491BC /* StrongGuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongGuyTests.swift; sourceTree = "<group>"; };
 		76D0245E236D986A000491BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D02467236D9C15000491BC /* HammerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				76D02447236D9868000491BC /* SceneDelegate.swift */,
 				76D02449236D9868000491BC /* ViewController.swift */,
 				76D0244B236D9868000491BC /* Main.storyboard */,
+				76D02467236D9C15000491BC /* HammerTableViewCell.swift */,
 				76D0244E236D986A000491BC /* Assets.xcassets */,
 				76D02450236D986A000491BC /* LaunchScreen.storyboard */,
 				76D02453236D986A000491BC /* Info.plist */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D0244A236D9868000491BC /* ViewController.swift in Sources */,
+				76D02468236D9C15000491BC /* HammerTableViewCell.swift in Sources */,
 				76D02446236D9868000491BC /* AppDelegate.swift in Sources */,
 				76D02448236D9868000491BC /* SceneDelegate.swift in Sources */,
 			);
@@ -365,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GJ2BV3W99;
 				INFOPLIST_FILE = StrongGuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GJ2BV3W99;
 				INFOPLIST_FILE = StrongGuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
